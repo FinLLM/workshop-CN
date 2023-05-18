@@ -401,7 +401,7 @@ export default {}
   margin-top: 100px;
 }
 .subtitle {
-  background: url('@/assets/img/header-bg.png') no-repeat;
+  background: url('@/assets/img/header-bg.jpg') no-repeat;
   height: 614px;
   box-sizing: border-box;
   background-size: 100% 100%;

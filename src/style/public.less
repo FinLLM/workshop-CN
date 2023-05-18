@@ -1,0 +1,61 @@
+@size: 50px;
+.public-mixin(){
+  .center-box {
+    h1{
+      font-size: @size + 10px;
+    }
+    .cente-text {
+      font-size: @size;
+      line-height: 1.5;
+      .cente-text-title {
+        text-align: left;
+        font-size: @size;
+      }
+      .p-text {
+        font-size: @size;
+      }
+      .cente-text-cente span {
+        font-size: @size;
+      }
+    }
+    .item-box {
+      font-size: @size;
+    }
+  }
+  .center-box .card-box .card {
+    .title {
+      font-size: @size - 10px;
+    }
+  }
+  .center-box .card-box .card .timer .date {
+    font-size: @size / 2;
+  }
+  .center-box .card-box .card .timer .month {
+    font-size: @size - 12px;
+  }
+  .center-box .item-box .item-box-left p {
+    font-size: @size;
+  }
+  .center-box .item-box .item-box-right p {
+    font-size: @size;
+  }
+  .center-box .h1-title {
+    font-size: @size;
+  }
+  .middle{
+    &>div{
+      &>div{
+        &>div{
+          font-size: @size;
+          line-height: 2;
+          span{
+            font-size: @size;
+          }
+        }
+      }
+    }
+    h1{
+      font-size: @size + 10px;
+    }
+  }
+}

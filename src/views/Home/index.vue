@@ -19,7 +19,7 @@
     </div>
     <div class="subtitle padding w">
       <div class="sub-text">
-        国际金融服务领域 <br />大语言模型研讨会<br />
+        国际金融服务大型语言模型研讨会<br />
         (FinLLM 2023)@IJCAI 2023
       </div>
       <!-- <div class="sub-img">
@@ -47,7 +47,7 @@
         />
       </div>
       <!-- <h1>Committee</h1> -->
-      <h1>范围和目标</h1>
+      <h1>研讨范围和目标</h1>
       <div class="cente-text mg-bottom">
         预训练的大型语言模型（LLMs）在各种自然语言处理任务中展示了巨大的潜力，包括语言生成、机器翻译和问答。在金融服务行业中，预训练的LLMs可以对金融预测、风险管理和情感分析等任务产生重大影响。此外，LLMs可以帮助自动化分析财务报告的过程，并提取有助于企业做出明智决策的关键见解。<br /><br />
         本次研讨会为来自世界各地的研究人员、实践者和行业专家提供了一个平台，分享新思想、交流研究发现，并讨论预训练的LLMs在金融服务领域中面临的挑战和机遇。研讨会将涵盖两个主题：1）预训练的LLMs在金融服务中的潜在应用和最佳实践；2）需要解决的挑战，以使它们高效、有效和可信。
@@ -93,7 +93,7 @@
           </p>
         </div>
         <div class="card">
-          <p class="title">接受通知:</p>
+          <p class="title">通知截止时间:</p>
           <p class="timer">
             <span class="month">2023年6月22日</span>
             <span class="date">(23:59:59 AoE)</span>
@@ -128,23 +128,23 @@
     </div>
     <div class="middle">
       <div class="w padding">
-        <h1>初步日程安排</h1>
+        <h1>暂定日程安排：</h1>
         <div>
           <div class="middle-mg">
             <span>上午:</span>
-            <br />• 08:30 - 09:00 嘉宾签到<br />• 09:00 - 10:00 特邀演讲 <br />• 10:00 - 10:45 报告演讲 <br />• 10:45 -
-            11:00 休息 <br />• 11:00 - 11:45 报告演讲
+            <br />• 08:30 - 09:00 嘉宾签到<br />• 09:00 - 10:00 特邀演讲 <br />• 10:00 - 10:45 陈述报告 <br />• 10:45 -
+            11:00 休息 <br />• 11:00 - 11:45 陈述报告
           </div>
           <div>
             <span>下午:</span>
-            <br />• 13:00 - 14:30 特邀演讲 <br />• 14:30 - 15:15 报告演讲 <br />• 15:15 - 15:30 休息 <br />• 15:30 -
-            16:30 开放讨论 <br />• 16:30 - 17:00 颁奖仪式
+            <br />• 13:00 - 14:30 特邀演讲 <br />• 14:30 - 15:15 陈述报告 <br />• 15:15 - 15:30 休息 <br />• 15:30 -
+            16:30 嘉宾讨论 <br />• 16:30 - 17:00 颁奖仪式
           </div>
         </div>
       </div>
     </div>
     <div class="center-box w padding">
-      <h1>Organization</h1>
+      <h1>参与嘉宾</h1>
       <div class="item-box">
         <!-- <div class="item-box-left">
           <p>Symposium Organizers:</p>
@@ -154,14 +154,14 @@
           </div>
         </div> -->
         <div class="item-box-right">
-          <p>Invited Speakers</p>
+          <p>特邀演讲嘉宾</p>
           <div>
             <div
               v-for="(item, index) in 6"
               :key="item"
               :class="index <= 2 ? 'isH5' : ''"
             >
-              TBA
+              待公布
               <!-- 1.Shijie Wu (Bloomberg) <br />2.Bai Shuo (Chief Senior Technical Advisor of the Intelligent Investment
             Research Technology) <br />3.Zhong Yuyang (Chief Information Officer of China Southern Asset Management)
             <br />4.Sun Jianing (General Manager of both the Quantitative Investment Department and Equity Research
@@ -219,10 +219,10 @@
         </div>
       </div> -->
       <p><br /></p>
-      <h1>会议组织者</h1>
+      <h1>组委会成员</h1>
       <div class="cente-text mg-bottom">
         <div class="centet-people">
-          <div class="left-title">General Chair</div>
+          <div class="left-title">大会主席</div>
           <div class="people-box">
             <div class="info-box">
               <div class="avt">
@@ -251,7 +251,7 @@
           </div>
         </div>
         <div class="centet-people">
-          <div class="left-title">Program Chair</div>
+          <div class="left-title">程序委员会主席</div>
           <div class="people-box">
             <div class="info-box">
               <div class="avt">
@@ -273,7 +273,7 @@
                 />
               </div>
               <div class="info">
-                <p class="name">Xueyang Wu</p>
+                <p class="name">吴学阳</p>
                 <p class="note">Flaiverse</p>
               </div>
             </div>
@@ -298,7 +298,7 @@
               </div>
               <div class="info">
                 <p class="name">徐倩</p>
-                <p class="note">HKUST</p>
+                <p class="note">香港科技大学</p>
               </div>
             </div>
           </div>
@@ -306,27 +306,29 @@
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
-          <span>刘硕凌: </span>
-          基金创新研研究中心总经理，基金科技委员会执行主席，中国证券投资基金业协会金融科技委员会委员，深圳证券信息有限公司量化投资委员会委员。研究方向：算法交易、基于人工智能的债券违约预测、基于大数据的ESG研究。获得奖项：中国人民银行年度金融科技发展（2020）。拥有10个以上与金融科技相关的专利。
-          <br /><br />
-          <span>Xueyang Wu: </span>
-          香港科技大学博士（2023），Flaiverse联合创始人和首席科学家。研究方向：迁移学习、联邦学习、自然语言处理、LLMs。发表研究论文和专利。审稿人：NeurIPS、KDD、ICML、ICLR等。
-          <br /><br />
-          <span>唐永鹏: </span>
-          高级金融科技专家，基金应用开发部门经理。拥有20年以上经验。拥有10个以上与金融科技相关的专利。获得奖项：中国人民银行年度金融科技发展（2020）。中国科学院奖学金获得者。曾在AI和金融论坛上发表主题演讲。
-          <br /><br />
-          <span>徐倩: </span>
-          香港科技大学博士（2011），香港科技大学（广州）兼职副教授。研究方向：人工智能、迁移学习、联邦学习、自然语言处理、LLMs。曾在百度和微众银行工作。GSAIR执行董事和GBA人工智能与机器人学会创始成员。
-          <br /><br />
-          <span>陈丽园: </span>
-          基金公司首席运营官，基金科技委员会主席。拥有10年以上经验。
-          <br /><br />
           <span>杨强: </span>
-          美国马里兰大学博士（1989），香港科技大学计算机科学与工程系系主任、新纪元教授、特聘教授。AAAI、ACM、IEEE、AAAS、IAPR、CAAI院士。IJCAI主席（2017-2019），ACM
-          SIGART（SIGAI）副主席（2009-2012），PC主席或联合主席：IJCAI（2015），ACM KDD（2010）<br />
+          美国马里兰大学博士（1989），香港科技大学计算机科学与工程系系主任、新纪元教授、特聘教授，AAAI、ACM、IEEE、AAAS、IAPR、CAAI院士。IJCAI主席（2017-2019），ACM
+          SIGART（SIGAI）副主席（2009-2012），PC主席或联合主席：IJCAI（2015），ACM KDD（2010）。<br />
           Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           >
+          <br /><br />
+          <span>陈丽园: </span>
+          易方达基金公司首席运营官，易方达基金科技委员会主席，拥有10年以上经验。
+          <br /><br />
+          <span>刘硕凌: </span>
+          易方达基金创新研究中心总经理，易方达基金金融科技委员会执行主席。
+          <!-- 易方达基金创新研究中心总经理，易方达基金金融科技委员会执行主席，中国证券投资基金业协会金融科技委员会委员，智能投研技术联盟委员。研究方向：算法交易、基于人工智能的债券违约预测、基于大数据的ESG研究。获得奖项：中国人民银行年度金融科技发展（2020）。拥有10个以上与金融科技相关的专利。 -->
+          <br /><br />
+          <span>吴学阳: </span>
+          香港科技大学博士（2023），Flaiverse联合创始人和首席科学家。研究方向：迁移学习、联邦学习、自然语言处理、LLMs。发表研究论文和专利。审稿人：NeurIPS、KDD、ICML、ICLR等。
+          <br /><br />
+          <span>唐永鹏: </span>
+          易方达基金系统研发中心总经理，高级金融科技专家，拥有20年以上经验。
+          <!-- 高级金融科技专家，易方达基金系统研发中心总经理。拥有20年以上经验。拥有10个以上与金融科技相关的专利。获得奖项：中国人民银行年度金融科技发展（2020）。曾在AI和金融论坛上发表主题演讲。 -->
+          <br /><br />
+          <span>徐倩: </span>
+          香港科技大学博士（2011），香港科技大学（广州）兼职副教授。研究方向：人工智能、迁移学习、联邦学习、自然语言处理、LLMs。曾在百度和微众银行工作。GSAIR执行董事和GBA人工智能与机器人学会创始成员。
         </div>
       </div>
       <h1>主要会议信息</h1>
@@ -462,7 +464,8 @@ export default {}
       border-radius: 15px 0 0 15px;
       width: 40%;
       display: flex;
-      justify-content: center;
+      // justify-content: center;
+      padding-left: 50px;
       align-items: center;
       @media (max-width: 750px) {
         width: 100%;
@@ -479,7 +482,7 @@ export default {}
       }
 
       .center-text-title {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 32px;
       }
 
@@ -603,14 +606,14 @@ export default {}
     }
     .cente-text-title {
       font-size: 26px;
-      font-weight: 700;
+      font-weight: 600;
       margin-bottom: 34px;
     }
     .cente-text-cente {
       text-align: left;
       span {
         font-size: 26px;
-        font-weight: 700;
+        font-weight: 600;
       }
       .img-box {
         width: 620px;
@@ -621,6 +624,9 @@ export default {}
           width: 100%;
           height: 100%;
         }
+      }
+      .text {
+        line-height: 2;
       }
     }
     .justify {

@@ -71,7 +71,7 @@
             <br />- 金融服务中LLMs的迁移学习和领域自适应 <br />- LLMs在金融服务中的案例研究和成功故事 <br /><br /><span
               >挑战:</span
             ><br />
-            - 评估LLMs在金融服务中的效果 <br />-LLMs在金融服务中的社会经济和可信度 <br />-
+            - 评估LLMs在金融服务中的效果 <br />- LLMs在金融服务中的社会经济和可信度 <br />-
             使用LLMs在金融服务中的道德和法律考虑因素 <br />- 使用LLMs处理金融数据时的隐私和安全问题 <br />-
             在金融服务中使用LLMs时的偏见和公平性问题
           </div>
@@ -232,8 +232,8 @@
                 />
               </div>
               <div class="info">
-                <p class="name">Qiang Yang</p>
-                <p class="note">WeBank/HKUST</p>
+                <p class="name">杨强</p>
+                <p class="note">微众银行/香港科技大学</p>
               </div>
             </div>
             <div class="info-box">
@@ -244,8 +244,8 @@
                 />
               </div>
               <div class="info">
-                <p class="name">Liyuan Chen</p>
-                <p class="note">E Fund</p>
+                <p class="name">陈丽园</p>
+                <p class="note">易方达</p>
               </div>
             </div>
           </div>
@@ -261,8 +261,8 @@
                 />
               </div>
               <div class="info">
-                <p class="name">Shuoling Liu</p>
-                <p class="note">E Fund</p>
+                <p class="name">刘硕凌</p>
+                <p class="note">易方达</p>
               </div>
             </div>
             <div class="info-box">
@@ -285,8 +285,8 @@
                 />
               </div>
               <div class="info">
-                <p class="name">Yongpeng Tang</p>
-                <p class="note">E Fund</p>
+                <p class="name">唐永鹏</p>
+                <p class="note">易方达</p>
               </div>
             </div>
             <div class="info-box">
@@ -297,7 +297,7 @@
                 />
               </div>
               <div class="info">
-                <p class="name">Qian Xu</p>
+                <p class="name">徐倩</p>
                 <p class="note">HKUST</p>
               </div>
             </div>

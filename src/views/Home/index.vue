@@ -64,8 +64,8 @@
             <span>技术: </span>
             <br />- 使用LLMs进行金融数据的多模态建模 <br />- 为LLMs准备和清洗金融数据 <br />-
             将LLMs与金融服务中的其他AI技术集成 <br />- 金融服务中LLMs的新型架构和训练技术 <br />-
-            LLMs在金融服务中的可扩展性和效率 <br />- 金融服务中的跨语言和多语言LLMs <br />-
-            人类参与LLMs在金融服务中的方法 <br /><br /><span>应用:</span><br />
+            LLMs在金融服务中的可扩展性和效率 <br />- 金融服务中的跨语言和多语言LLMs <br />- 金融服务中的LLMs人机回圈
+            <br /><br /><span>应用:</span><br />
             - 使用LLMs进行金融预测 <br />- 针对金融数据的情感分析和意见挖掘 <br />- 基于LLMs的交易算法和决策系统 <br />-
             使用LLMs分析金融新闻和社交媒体 <br />- 对金融报告和申报的语义分析 <br />- 使用LLMs实现金融服务中的可解释性AI
             <br />- 金融服务中LLMs的迁移学习和领域自适应 <br />- LLMs在金融服务中的案例研究和成功故事 <br /><br /><span
@@ -245,7 +245,7 @@
               </div>
               <div class="info">
                 <p class="name">陈丽园</p>
-                <p class="note">易方达</p>
+                <p class="note">易方达基金</p>
               </div>
             </div>
           </div>
@@ -262,9 +262,14 @@
               </div>
               <div class="info">
                 <p class="name">刘硕凌</p>
-                <p class="note">易方达</p>
+                <p class="note">易方达基金</p>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="centet-people">
+          <div class="left-title">大会组织者</div>
+          <div class="people-box">
             <div class="info-box">
               <div class="avt">
                 <img
@@ -286,7 +291,7 @@
               </div>
               <div class="info">
                 <p class="name">唐永鹏</p>
-                <p class="note">易方达</p>
+                <p class="note">易方达基金</p>
               </div>
             </div>
             <div class="info-box">
@@ -308,27 +313,28 @@
         <div class="cente-text-cente justify">
           <span>杨强: </span>
           美国马里兰大学博士（1989），香港科技大学计算机科学与工程系系主任、新纪元教授、特聘教授，AAAI、ACM、IEEE、AAAS、IAPR、CAAI院士。IJCAI主席（2017-2019），ACM
-          SIGART（SIGAI）副主席（2009-2012），PC主席或联合主席：IJCAI（2015），ACM KDD（2010）。<br />
-          Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
+          SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
+          Google Scholar: <br />
+          <a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           >
           <br /><br />
           <span>陈丽园: </span>
-          易方达基金公司首席运营官，易方达基金科技委员会主席，拥有10年以上经验。
+          易方达基金首席营运官，易方达基金金融科技执行委员会主席。
           <br /><br />
           <span>刘硕凌: </span>
-          易方达基金创新研究中心总经理，易方达基金金融科技委员会执行主席。
+          易方达基金创新研究中心总经理，易方达基金金融科技技术委员会执行主席。
           <!-- 易方达基金创新研究中心总经理，易方达基金金融科技委员会执行主席，中国证券投资基金业协会金融科技委员会委员，智能投研技术联盟委员。研究方向：算法交易、基于人工智能的债券违约预测、基于大数据的ESG研究。获得奖项：中国人民银行年度金融科技发展（2020）。拥有10个以上与金融科技相关的专利。 -->
           <br /><br />
           <span>吴学阳: </span>
-          香港科技大学博士（2023），Flaiverse联合创始人和首席科学家。研究方向：迁移学习、联邦学习、自然语言处理、LLMs。发表研究论文和专利。审稿人：NeurIPS、KDD、ICML、ICLR等。
+          香港科技大学博士（2023），Flaiverse联合创始人和首席科学家。研究方向：迁移学习、联邦学习、自然语言处理、LLMs。发表多篇研究论文和专利，审稿人：NeurIPS、KDD、ICML、ICLR等。
           <br /><br />
           <span>唐永鹏: </span>
-          易方达基金系统研发中心总经理，高级金融科技专家，拥有20年以上经验。
+          易方达基金董事总经理，系统研发中心总经理，高级金融科技专家。
           <!-- 高级金融科技专家，易方达基金系统研发中心总经理。拥有20年以上经验。拥有10个以上与金融科技相关的专利。获得奖项：中国人民银行年度金融科技发展（2020）。曾在AI和金融论坛上发表主题演讲。 -->
           <br /><br />
           <span>徐倩: </span>
-          香港科技大学博士（2011），香港科技大学（广州）兼职副教授。研究方向：人工智能、迁移学习、联邦学习、自然语言处理、LLMs。曾在百度和微众银行工作。GSAIR执行董事和GBA人工智能与机器人学会创始成员。
+          香港科技大学博士（2011），香港科技大学（广州）兼职副教授。研究方向：人工智能、迁移学习、联邦学习、自然语言处理、LLMs。曾在百度和微众银行工作，GSAIR执行董事和GBA人工智能与机器人学会创始成员。
         </div>
       </div>
       <h1>主要会议信息</h1>
@@ -652,13 +658,16 @@ export default {}
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      @media (max-width: 750px) {
+        height: 200px;
+      }
       p {
         margin: 0;
       }
       .title {
         font-size: 20px;
         color: #81838c;
-        line-height: 33px;
+        // line-height: 33px;
         font-weight: 700;
       }
       .timer {
@@ -832,9 +841,9 @@ export default {}
       .card {
         width: 49%;
         margin-bottom: 30px;
-        .title {
-          margin-bottom: 20px;
-        }
+        // .title {
+        //   margin-bottom: 20px;
+        // }
       }
     }
   }

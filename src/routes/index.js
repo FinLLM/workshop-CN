@@ -1,12 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
-import Home from '@/views/Home/index.vue'
+import CnPage from '@/views/CnPage/index.vue'
+import EnPage from '@/views/EnPage/index.vue'
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    redirect: '/cn',
+  },
+  {
+    path: '/cn',
+    name: 'CnPage',
+    component: CnPage,
+  },
+  {
+    path: '/en',
+    name: 'EnPage',
+    component: EnPage,
   },
 ]
 

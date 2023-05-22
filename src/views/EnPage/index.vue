@@ -109,14 +109,14 @@
         <div class="card">
           <p class="title">Notification Due:</p>
           <p class="timer">
-            <span class="month">June 22, 2023</span>
+            <span class="month">July 4, 2023</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
           <p class="title">Final Version Due:</p>
           <p class="timer">
-            <span class="month">June 30, 2023</span>
+            <span class="month">August 3, 2023</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>

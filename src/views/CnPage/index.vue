@@ -95,14 +95,14 @@
         <div class="card">
           <p class="title">通知截止时间:</p>
           <p class="timer">
-            <span class="month">2023年6月22日</span>
+            <span class="month">2023年7月4日</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
           <p class="title">正稿论文提交截止日期:</p>
           <p class="timer">
-            <span class="month">2023年6月30日</span>
+            <span class="month">2023年8月3日</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>

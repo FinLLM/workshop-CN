@@ -344,9 +344,7 @@
           <span>Liyuan Chen: </span>
           COO, Chairman of Fin-Tech Technology Committee at E Fund. 10+ years experience. <br /><br />
           <span>Qiang Yang: </span>
-          PhD, UMD (1989), Department Head of CSE & University New Bright Professor of Engineering and Chair Professor
-          at HKUST. Fellow of AAAI, ACM, IEEE, AAAS, IAPR, CAAI. IJCAI President (2017-2019), ACM SIGART (SIGAI) Vice
-          Chair (2009-2012), PC Chair or Co-Chair: IJCAI (2015), ACM KDD (2010)<br />
+          Chief Artificial Intelligence Officer of WeBank, Department Head of CSE and New Bright Professor of Engineering and Chair Professor at HKUST. Fellow of AAAI, ACM, IEEE, AAAS, IAPR, CAAI. IJCAI President (2017-2019), ACM SIGART (SIGAI) Vice Chair (2009-2012), PC Chair or Co-Chair: IJCAI (2015), ACM KDD (2010).<br />
           Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           >

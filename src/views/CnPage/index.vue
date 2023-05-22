@@ -312,8 +312,7 @@
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
           <span>杨强: </span>
-          美国马里兰大学博士（1989），香港科技大学计算机科学与工程系系主任、新纪元教授、特聘教授，AAAI、ACM、IEEE、AAAS、IAPR、CAAI院士。IJCAI主席（2017-2019），ACM
-          SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
+          微众银行首席人工智能官，香港科技大学计算机科学与工程系系主任，新明工程学讲座教授。AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR Fellow和ACM杰出科学家。IJCAI主席（2017-2019），ACM SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
           Google Scholar: <br />
           <a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a

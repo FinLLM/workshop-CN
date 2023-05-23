@@ -312,7 +312,9 @@
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
           <span>杨强: </span>
-          微众银行首席人工智能官，香港科技大学计算机科学与工程系系主任，新明工程学讲座教授。AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR Fellow和ACM杰出科学家。IJCAI主席（2017-2019），ACM SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
+          微众银行首席人工智能官，香港科技大学计算机科学与工程系系主任，新明工程学讲座教授。AAAI Fellow, IEEE Fellow,
+          AAAS Fellow, IAPR Fellow和ACM杰出科学家。IJCAI主席（2017-2019），ACM
+          SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
           Google Scholar: <br />
           <a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
@@ -344,7 +346,15 @@
         </div>
       </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer padding">
+      <div>
+        <div class="email-icon"></div>
+        <div class="email-info">
+          <p>如有任何疑问，请发送电子邮件至：</p>
+          <p style="color: #b3ebff">finllm2023@easychair.org</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -398,6 +408,25 @@ export default {}
 .footer {
   height: 151px;
   margin-top: 100px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  & > div {
+    display: flex;
+    .email-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 9px;
+      background: url('@/assets/img/email.png') no-repeat;
+      background-size: cover;
+    }
+    p {
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
 }
 .subtitle {
   background: url('@/assets/img/header-bg.jpg') no-repeat;

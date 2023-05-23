@@ -344,7 +344,9 @@
           <span>Liyuan Chen: </span>
           COO, Chairman of Fin-Tech Technology Committee at E Fund. 10+ years experience. <br /><br />
           <span>Qiang Yang: </span>
-          Chief Artificial Intelligence Officer of WeBank, Department Head of CSE and New Bright Professor of Engineering and Chair Professor at HKUST. Fellow of AAAI, ACM, IEEE, AAAS, IAPR, CAAI. IJCAI President (2017-2019), ACM SIGART (SIGAI) Vice Chair (2009-2012), PC Chair or Co-Chair: IJCAI (2015), ACM KDD (2010).<br />
+          Chief Artificial Intelligence Officer of WeBank, Department Head of CSE and New Bright Professor of
+          Engineering and Chair Professor at HKUST. Fellow of AAAI, ACM, IEEE, AAAS, IAPR, CAAI. IJCAI President
+          (2017-2019), ACM SIGART (SIGAI) Vice Chair (2009-2012), PC Chair or Co-Chair: IJCAI (2015), ACM KDD (2010).<br />
           Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           >
@@ -359,7 +361,15 @@
         </div>
       </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer padding">
+      <div>
+        <div class="email-icon"></div>
+        <div class="email-info">
+          <p>If you have any question, feel free to contact us:</p>
+          <p style="color: #b3ebff">finllm2023@easychair.org</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -413,6 +423,25 @@ export default {}
 .footer {
   height: 151px;
   margin-top: 100px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  & > div {
+    display: flex;
+    .email-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 9px;
+      background: url('@/assets/img/email.png') no-repeat;
+      background-size: cover;
+    }
+    p {
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
 }
 .subtitle {
   background: url('@/assets/img/header-bg.jpg') no-repeat;

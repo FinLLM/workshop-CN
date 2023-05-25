@@ -8,7 +8,11 @@
     </div>
     <div class="header">
       <div class="w padding flex">
-        <span>FinLLM 2023</span>
+        <span
+          style="cursor: pointer"
+          @click="$router.replace('/cn')"
+          >FinLLM 2023</span
+        >
         <div class="right">
           <img
             src="@/assets/img/ijcai.png"
@@ -40,7 +44,7 @@ export default {
 }
 </script>
 
-<style lang='less' scoped>
+<style lang="less" scoped>
 html {
   -webkit-text-size-adjust: 100%; /* WebKit */
   -ms-text-size-adjust: 100%; /* IE */

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div style="display: none">
+    <!-- <div style="display: none">
       <img
         src="@/assets/img/logo.jpg"
         alt=""
@@ -16,12 +16,18 @@
           />
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="subtitle padding w">
       <div class="sub-text">
         国际金融服务大型语言模型研讨会<br />
         (FinLLM 2023)@IJCAI 2023
       </div>
+      <button
+        class="registration"
+        @click="$router.push('/registration')"
+      >
+        注册方式
+      </button>
       <!-- <div class="sub-img">
         <img
           src="@/assets/img/subImg.png"
@@ -346,7 +352,7 @@
         </div>
       </div>
     </div>
-    <div class="footer padding">
+    <!-- <div class="footer padding">
       <div>
         <div class="email-icon"></div>
         <div class="email-info">
@@ -354,7 +360,7 @@
           <p style="color: #b3ebff">finllm2023@easychair.org</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -433,8 +439,23 @@ export default {}
   height: 614px;
   box-sizing: border-box;
   background-size: 100% 100%;
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
+  .registration {
+    width: 150px;
+    height: 50px;
+    background-color: #4270f1;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    @media (max-width: 750px) {
+      width: 300px;
+      height: 100px;
+      font-size: 28px;
+    }
+  }
   padding-top: 144px;
   @media (max-width: 750px) {
     height: 1200px;

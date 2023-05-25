@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div style="display: none">
+    <!-- <div style="display: none">
       <img
         src="@/assets/img/logo.jpg"
         alt=""
@@ -16,7 +16,7 @@
           />
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="subtitle padding w">
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
@@ -361,7 +361,7 @@
         </div>
       </div>
     </div>
-    <div class="footer padding">
+    <!-- <div class="footer padding">
       <div>
         <div class="email-icon"></div>
         <div class="email-info">
@@ -369,7 +369,7 @@
           <p style="color: #b3ebff">finllm2023@easychair.org</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

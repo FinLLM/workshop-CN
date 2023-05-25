@@ -18,6 +18,11 @@ const routes = [
     name: 'EnPage',
     component: EnPage,
   },
+  {
+    path: '/registration',
+    name: 'Registration',
+    component: () => import('@/views/Registration/index.vue'),
+  },
 ]
 
 const router = new VueRouter({ mode: 'hash', routes })

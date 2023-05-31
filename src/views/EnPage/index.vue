@@ -174,15 +174,55 @@
         <div class="item-box-right">
           <p>Invited Speakers</p>
           <div>
-            <div>
-              <div class="img-box">
+            <div class="info-box">
+              <div class="avt">
                 <img
                   src="@/assets/img/杨文斌.jpg"
                   alt=""
                 />
               </div>
-              <div>Wenbin Yang</div>
-              <!-- 1.Shijie Wu (Bloomberg) <br />2.Bai Shuo (Chief Senior Technical Advisor of the Intelligent Investment
+              <div class="info">
+                <p class="name">Wenbin Yang</p>
+                <p class="note">East Money</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="avt">
+                <img
+                  src="@/assets/img/白硕.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Shuo Bai</p>
+                <p class="note">Hundsun Technologies</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="avt">
+                <img
+                  src="@/assets/img/王巍巍.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Weiwei Wang</p>
+                <p class="note">Alibaba DAMO Academy</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="avt">
+                <img
+                  src="@/assets/img/皱胜.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Sheng Zou</p>
+                <p class="note">Sinovel Financial</p>
+              </div>
+            </div>
+            <!-- 1.Shijie Wu (Bloomberg) <br />2.Bai Shuo (Chief Senior Technical Advisor of the Intelligent Investment
             Research Technology) <br />3.Zhong Yuyang (Chief Information Officer of China Southern Asset Management)
             <br />4.Sun Jianing (General Manager of both the Quantitative Investment Department and Equity Research
             Department at Guotai Junan Securities Asset Management) <br />5.Jinlong Li (Director of the AI Laboratory of
@@ -191,34 +231,6 @@
             of Macao) <br />10.Eddie Yue (Chief Executive of the Hong Kong Monetary Authority) <br />11.Jie He (Head of
             the Shenzhen Local Financial Supervision and Administration Bureau) <br />12.Ravi Menon (Managing Director
             of the Monetary Authority of Singapore) -->
-            </div>
-            <div>
-              <div class="img-box">
-                <img
-                  src="@/assets/img/王巍巍.jpg"
-                  alt=""
-                />
-              </div>
-              <div>Weiwei Yang</div>
-            </div>
-            <div>
-              <div class="img-box">
-                <img
-                  src="@/assets/img/白硕.jpg"
-                  alt=""
-                />
-              </div>
-              <div>Shuo Bai</div>
-            </div>
-            <div>
-              <div class="img-box">
-                <img
-                  src="@/assets/img/皱胜.jpg"
-                  alt=""
-                />
-              </div>
-              <div>Sheng Zou</div>
-            </div>
           </div>
         </div>
       </div>
@@ -780,57 +792,117 @@ export default {}
         margin-left: 120px;
         @media (max-width: 750px) {
           margin-left: 40px;
+          flex-wrap: wrap;
+          margin-top: 40px;
         }
-        & > div {
-          // width: 90px;
-          // background: url('@/assets/img/rect.png') no-repeat;
-          // background-size: cover;
+        .info-box {
           display: flex;
-          flex-direction: column;
           align-items: center;
-          justify-content: center;
-          color: #ffffff;
-          // overflow: hidden;
-          & > div {
-            font-size: 26px;
-            color: #292f36;
-            font-weight: 600;
-            text-align: center;
-            &.img-box {
-              width: 90px;
-              height: 90px;
-              border-radius: 50%;
-              overflow: hidden;
-              margin-bottom: 10px;
-              @media (max-width: 750px) {
-                width: 180px;
-                height: 180px;
-              }
-            }
+          width: 25%;
+          @media (max-width: 750px) {
+            width: 50%;
+            margin-bottom: 40px;
+          }
+          .avt {
+            width: 90px;
+            height: 90px;
+            margin-right: 20px;
+            background: rgba(95, 95, 95, 0.16);
+            border-radius: 50%;
+            // border: 1px solid #e2e2e2;
+            overflow: hidden;
             @media (max-width: 750px) {
-              font-size: 42px;
+              width: 180px;
+              height: 180px;
+            }
+            img {
+              width: 100%;
+              height: 100%;
             }
           }
-          img {
-            width: 100%;
-            height: 100%;
+          .xuqian {
+            width: 100px;
+            height: 90px;
           }
           @media (max-width: 750px) {
-            // width: 180px;
-            // height: 180px;
-            margin-top: 40px;
+            .xuqian {
+              width: 200px;
+              height: 180px;
+            }
           }
-          @media (max-width: 375px) {
-            // width: 200px;
-            // height: 200px;
-            margin-top: 40px;
+          .info {
+            p {
+              margin: 0;
+            }
+            .name {
+              font-size: 19.8px;
+              color: #292f36;
+              font-weight: 700;
+              @media (max-width: 750px) {
+                font-size: 42px;
+              }
+            }
+            .note {
+              font-size: 16.2px;
+              color: #292f36;
+              font-weight: 500;
+              @media (max-width: 750px) {
+                font-size: 32px;
+              }
+            }
           }
         }
-        @media (max-width: 750px) {
-          .isH5 {
-            display: none;
-          }
-        }
+        // & > div {
+        //   width: 90px;
+        //   // background: url('@/assets/img/rect.png') no-repeat;
+        //   // background-size: cover;
+        //   // display: flex;
+        //   // align-items: center;
+        //   display: flex;
+        //   align-items: center;
+        //   color: #ffffff;
+        //   // overflow: hidden;
+        //   @media (max-width: 750px) {
+        //     width: 180px;
+        //   }
+        //   & > div {
+        //     font-size: 26px;
+        //     color: #292f36;
+        //     font-weight: 600;
+        //     text-align: center;
+        //     &.img-box {
+        //       // height: 90px;
+        //       border-radius: 50%;
+        //       overflow: hidden;
+        //       margin-bottom: 10px;
+        //       // @media (max-width: 750px) {
+        //       //   height: 180px;
+        //       // }
+        //     }
+        //     @media (max-width: 750px) {
+        //       font-size: 42px;
+        //     }
+        //   }
+        //   img {
+        //     width: 100%;
+        //     height: 100%;
+        //   }
+        //   @media (max-width: 750px) {
+        //     width: 180px;
+        //     height: 180px;
+        //     margin-top: 40px;
+        //   }
+        //   @media (max-width: 375px) {
+        //     width: 200px;
+        //     height: 200px;
+        //     margin-top: 40px;
+        //   }
+        // }
+        // @media (max-width: 750px) {
+        //   .isH5 {
+        //     display: none;
+        //   }
+        // }
       }
       p {
         font-size: 26px;

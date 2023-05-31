@@ -174,23 +174,51 @@
         <div class="item-box-right">
           <p>Invited Speakers</p>
           <div>
-            <div
-              v-for="(item, index) in 6"
-              :key="item"
-              :class="index <= 2 ? 'isH5' : ''"
-            >
-              TBA
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/杨文斌.jpg"
+                  alt=""
+                />
+              </div>
+              <div>Wenbin Yang</div>
               <!-- 1.Shijie Wu (Bloomberg) <br />2.Bai Shuo (Chief Senior Technical Advisor of the Intelligent Investment
-              Research Technology) <br />3.Zhong Yuyang (Chief Information Officer of China Southern Asset Management)
-              <br />4.Sun Jianing (General Manager of both the Quantitative Investment Department and Equity Research
-              Department at Guotai Junan Securities Asset Management) <br />5.Jinlong Li (Director of the AI Laboratory of
-              China Merchants Bank) <br />6.Jie Tang (Tsinghua University) <br />7.Xiaoyan Liu (President of E Fund)
-              <br />8.Kar Yan Tam (Dean of HKUST Business School) <br />9.Sau San Chan (Chairman of the Monetary Authority
-              of Macao) <br />10.Eddie Yue (Chief Executive of the Hong Kong Monetary Authority) <br />11.Jie He (Head of
-              the Shenzhen Local Financial Supervision and Administration Bureau) <br />12.Ravi Menon (Managing Director
-              of the Monetary Authority of Singapore) -->
+            Research Technology) <br />3.Zhong Yuyang (Chief Information Officer of China Southern Asset Management)
+            <br />4.Sun Jianing (General Manager of both the Quantitative Investment Department and Equity Research
+            Department at Guotai Junan Securities Asset Management) <br />5.Jinlong Li (Director of the AI Laboratory of
+            China Merchants Bank) <br />6.Jie Tang (Tsinghua University) <br />7.Xiaoyan Liu (President of E Fund)
+            <br />8.Kar Yan Tam (Dean of HKUST Business School) <br />9.Sau San Chan (Chairman of the Monetary Authority
+            of Macao) <br />10.Eddie Yue (Chief Executive of the Hong Kong Monetary Authority) <br />11.Jie He (Head of
+            the Shenzhen Local Financial Supervision and Administration Bureau) <br />12.Ravi Menon (Managing Director
+            of the Monetary Authority of Singapore) -->
             </div>
-            <div>···</div>
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/王巍巍.jpg"
+                  alt=""
+                />
+              </div>
+              <div>Weiwei Yang</div>
+            </div>
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/白硕.jpg"
+                  alt=""
+                />
+              </div>
+              <div>Shuo Bai</div>
+            </div>
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/皱胜.jpg"
+                  alt=""
+                />
+              </div>
+              <div>Sheng Zou</div>
+            </div>
           </div>
         </div>
       </div>
@@ -749,24 +777,52 @@ export default {}
         display: flex;
         flex: 1;
         justify-content: space-between;
-        margin-left: 40px;
+        margin-left: 120px;
+        @media (max-width: 750px) {
+          margin-left: 40px;
+        }
         & > div {
-          width: 90px;
-          height: 90px;
-          background: url('@/assets/img/rect.png') no-repeat;
-          background-size: cover;
+          // width: 90px;
+          // background: url('@/assets/img/rect.png') no-repeat;
+          // background-size: cover;
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
           color: #ffffff;
+          // overflow: hidden;
+          & > div {
+            font-size: 26px;
+            color: #292f36;
+            font-weight: 600;
+            text-align: center;
+            &.img-box {
+              width: 90px;
+              height: 90px;
+              border-radius: 50%;
+              overflow: hidden;
+              margin-bottom: 10px;
+              @media (max-width: 750px) {
+                width: 180px;
+                height: 180px;
+              }
+            }
+            @media (max-width: 750px) {
+              font-size: 42px;
+            }
+          }
+          img {
+            width: 100%;
+            height: 100%;
+          }
           @media (max-width: 750px) {
-            width: 250px;
-            height: 250px;
+            // width: 180px;
+            // height: 180px;
             margin-top: 40px;
           }
           @media (max-width: 375px) {
-            width: 200px;
-            height: 200px;
+            // width: 200px;
+            // height: 200px;
             margin-top: 40px;
           }
         }

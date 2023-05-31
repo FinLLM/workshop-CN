@@ -162,12 +162,14 @@
         <div class="item-box-right">
           <p>特邀演讲嘉宾</p>
           <div>
-            <div
-              v-for="(item, index) in 6"
-              :key="item"
-              :class="index <= 2 ? 'isH5' : ''"
-            >
-              待公布
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/杨文斌.jpg"
+                  alt=""
+                />
+              </div>
+              <div>杨文斌</div>
               <!-- 1.Shijie Wu (Bloomberg) <br />2.Bai Shuo (Chief Senior Technical Advisor of the Intelligent Investment
             Research Technology) <br />3.Zhong Yuyang (Chief Information Officer of China Southern Asset Management)
             <br />4.Sun Jianing (General Manager of both the Quantitative Investment Department and Equity Research
@@ -178,7 +180,33 @@
             the Shenzhen Local Financial Supervision and Administration Bureau) <br />12.Ravi Menon (Managing Director
             of the Monetary Authority of Singapore) -->
             </div>
-            <div>···</div>
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/王巍巍.jpg"
+                  alt=""
+                />
+              </div>
+              <div>王巍巍</div>
+            </div>
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/白硕.jpg"
+                  alt=""
+                />
+              </div>
+              <div>白硕</div>
+            </div>
+            <div>
+              <div class="img-box">
+                <img
+                  src="@/assets/img/皱胜.jpg"
+                  alt=""
+                />
+              </div>
+              <div>皱胜</div>
+            </div>
           </div>
         </div>
       </div>
@@ -224,7 +252,7 @@
           </div>
         </div>
       </div> -->
-      <p><br /></p>
+      <p><br /><br /><br /><br /></p>
       <h1>组委会成员</h1>
       <div class="cente-text mg-bottom">
         <div class="centet-people">
@@ -764,19 +792,47 @@ export default {}
         display: flex;
         flex: 1;
         justify-content: space-between;
-        margin-left: 40px;
+        margin-left: 120px;
+        @media (max-width: 750px) {
+          margin-left: 40px;
+        }
         & > div {
           width: 90px;
-          height: 90px;
-          background: url('@/assets/img/rect.png') no-repeat;
-          background-size: cover;
-          display: flex;
-          align-items: center;
+          // background: url('@/assets/img/rect.png') no-repeat;
+          // background-size: cover;
+          // display: flex;
+          // align-items: center;
           justify-content: center;
           color: #ffffff;
+          // overflow: hidden;
           @media (max-width: 750px) {
-            width: 250px;
-            height: 250px;
+            width: 180px;
+          }
+          & > div {
+            font-size: 26px;
+            color: #292f36;
+            font-weight: 600;
+            text-align: center;
+            &.img-box {
+              // height: 90px;
+              border-radius: 50%;
+              overflow: hidden;
+              margin-bottom: 10px;
+              // @media (max-width: 750px) {
+              //   height: 180px;
+              // }
+            }
+            @media (max-width: 750px) {
+              font-size: 42px;
+            }
+          }
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          @media (max-width: 750px) {
+            width: 180px;
+            height: 180px;
             margin-top: 40px;
           }
           @media (max-width: 375px) {

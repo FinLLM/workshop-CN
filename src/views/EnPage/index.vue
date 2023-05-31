@@ -837,6 +837,7 @@ export default {}
             }
           }
           .info {
+            flex: 1;
             p {
               margin: 0;
             }

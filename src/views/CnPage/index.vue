@@ -801,6 +801,7 @@ export default {}
         width: 280px;
         @media (max-width: 750px) {
           width: auto;
+          font-size: 42px !important;
         }
       }
       @media (max-width: 750px) {

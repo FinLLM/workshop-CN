@@ -785,6 +785,7 @@ export default {}
       & > p {
         width: 280px;
         @media (max-width: 750px) {
+          font-size: 42px !important;
           width: auto;
         }
       }

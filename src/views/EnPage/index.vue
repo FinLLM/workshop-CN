@@ -219,7 +219,7 @@
               </div>
               <div class="info">
                 <p class="name">Sheng Zou</p>
-                <p class="note">Sinovel Financial</p>
+                <p class="note">Archforce Technology</p>
               </div>
             </div>
             <!-- 1.Shijie Wu (Bloomberg) <br />2.Bai Shuo (Chief Senior Technical Advisor of the Intelligent Investment

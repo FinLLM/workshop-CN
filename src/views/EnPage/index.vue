@@ -309,7 +309,12 @@
           </div>
         </div>
         <div class="centet-people">
-          <div class="left-title">Program Chair</div>
+          <div
+            class="left-title"
+            style="text-align: left"
+          >
+            Chairman of the Program Committee
+          </div>
           <div class="people-box">
             <div class="info-box">
               <div class="avt">
@@ -323,6 +328,23 @@
                 <p class="note">E Fund</p>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="centet-people">
+          <div class="left-title">Program Chair</div>
+          <div class="people-box">
+            <!-- <div class="info-box">
+              <div class="avt">
+                <img
+                  src="@/assets/img/6.png"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Shuoling Liu</p>
+                <p class="note">E Fund</p>
+              </div>
+            </div> -->
             <div class="info-box">
               <div class="avt">
                 <img
@@ -364,32 +386,30 @@
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
+          <span>Qiang Yang: </span>
+          Chief AI Officer of WeBank, Department Head of Computer Science and Engineering at the Hong Kong University of
+          Science and Technology, New Bright Professorship in Engineering. AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR
+          Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice Chair of ACM SIGART (SIGAI)
+          (2009-2012), PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).<br />
+          Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
+            >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
+          ><br /><br />
+          <span>Liyuan Chen: </span>
+          Chief Operating Officer of E Fund Management, Chairman of the E Fund FinTech Executive Committee.<br /><br />
           <span>Shuoling Liu: </span>
-          MD, Head of Institute of Innovation, Exec. Chairman of FinTech Tech. Committee at E Fund, FinTech Committee
-          member at AMAC, Quantitative Investment Committee member at ITL. Research interests: algo trading, AI-based
-          bond default prediction, big-data-based ESG research. Awards: PBOC Annual FinTech Development (2020). 10+
-          FinTech-related patents. <br /><br />
+          Head of Institute of Innovation at E Fund Management, Secretary-General of E Fund FinTech Executive Committee,
+          Member of the FinTech Special Committee of AMAC. <br /><br />
           <span>Xueyang Wu: </span>
           PhD, HKUST (2023), Co-founder & Principal Scientist at Flaiverse. Research interests: transfer learning,
           federated learning, NLP, LLMs. Publications: research papers & patents. Reviewer: NeurIPS, KDD, ICML, ICLR,
           etc. <br /><br />
           <span>Yongpeng Tang: </span>
-          Senior FinTech expert, MD, Head of Application Development at E Fund. 20+ years experience. 10+
-          FinTech-related patents. Awards: PBOC Annual FinTech Development (2020). Scholarship at Chinese Academy of
-          Sciences. Keynote speaker at AI and finance forums. <br /><br />
+          MD, Head of Application Development at E Fund Management, Member of E Fund Fintech Executive Committee, Senior
+          FinTech expert. <br /><br />
           <span>Qian Xu: </span>
           PhD, HKUST (2011), Adjunct Associate Professor at HKUST(GZ). Research interests: AI, transfer learning,
           federated learning, NLP, LLMs. Experience at Baidu Inc. & Webank Inc. Executive Director of GSAIR & Founding
-          Member of GBA Society of AI and Robotics. <br /><br />
-          <span>Liyuan Chen: </span>
-          COO, Chairman of Fin-Tech Technology Committee at E Fund. 10+ years experience. <br /><br />
-          <span>Qiang Yang: </span>
-          Chief Artificial Intelligence Officer of WeBank, Department Head of CSE and New Bright Professor of
-          Engineering and Chair Professor at HKUST. Fellow of AAAI, ACM, IEEE, AAAS, IAPR, CAAI. IJCAI President
-          (2017-2019), ACM SIGART (SIGAI) Vice Chair (2009-2012), PC Chair or Co-Chair: IJCAI (2015), ACM KDD (2010).<br />
-          Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
-            >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
-          >
+          Member of GBA Society of AI and Robotics.
         </div>
       </div>
       <h1>The Main Conference Information</h1>

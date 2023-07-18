@@ -30,6 +30,9 @@
           <p style="color: #b3ebff">finllm2023@easychair.org</p>
         </div>
       </div>
+      <div class="record">
+        <a href="https://beian.miit.gov.cn/">粤ICP备2023060187号-1</a>
+      </div>
     </div>
   </div>
 </template>
@@ -78,6 +81,9 @@ body {
   font-weight: 700;
   background: url('@/assets/img/CTA.png') no-repeat;
   background-size: cover;
+  a {
+    color: #b3ebff;
+  }
   .right {
     width: 172px;
     height: 64px;
@@ -100,6 +106,7 @@ body {
   font-weight: 500;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   & > div {
     display: flex;
     .email-icon {

@@ -177,13 +177,13 @@
             <div class="info-box">
               <div class="avt">
                 <img
-                  src="@/assets/img/杨文斌.jpg"
+                  src="@/assets/img/Mark Dredze.png"
                   alt=""
                 />
               </div>
               <div class="info">
-                <p class="name">Wenbin Yang</p>
-                <p class="note">East Money</p>
+                <p class="name">Mark Dredze(online)</p>
+                <p class="note">Bloomberg</p>
               </div>
             </div>
             <div class="info-box">

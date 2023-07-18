@@ -165,13 +165,13 @@
             <div class="info-box">
               <div class="avt">
                 <img
-                  src="@/assets/img/杨文斌.jpg"
+                  src="@/assets/img/Mark Dredze.png"
                   alt=""
                 />
               </div>
               <div class="info">
-                <p class="name">杨文斌</p>
-                <p class="note">东方财富</p>
+                <p class="name">Mark Dredze(远程)</p>
+                <p class="note">彭博</p>
               </div>
             </div>
             <div class="info-box">

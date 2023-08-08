@@ -23,6 +23,11 @@ const routes = [
     name: 'Registration',
     component: () => import('@/views/Registration/index.vue'),
   },
+  {
+    path: '/brochure',
+    name: 'Brochure',
+    component: () => import('@/views/Brochure/index.vue'),
+  },
 ]
 
 const router = new VueRouter({ mode: 'hash', routes })

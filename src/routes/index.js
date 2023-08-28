@@ -28,6 +28,11 @@ const routes = [
     name: 'Brochure',
     component: () => import('@/views/Brochure/index.vue'),
   },
+  {
+    path: '/fcb',
+    name: 'ConferenceBrochure',
+    component: () => import('@/views/ConferenceBrochure/index.vue'),
+  },
 ]
 
 const router = new VueRouter({ mode: 'hash', routes })

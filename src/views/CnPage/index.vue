@@ -24,9 +24,9 @@
       </div>
       <button
         class="registration"
-        @click="$router.push('/registration')"
+        @click="$router.push('/fcb')"
       >
-        注册方式
+        获奖名单
       </button>
       <!-- <div class="sub-img">
         <img

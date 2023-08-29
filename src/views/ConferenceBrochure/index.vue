@@ -245,6 +245,14 @@
         research.
       </div>
       <h1 class="big-title">Award</h1>
+      <div class="jz-box">
+        <img
+          v-for="item in 6"
+          :key="item"
+          :src="require(`../../assets/img/jiangzhuang (${item}).jpg`)"
+          alt=""
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -418,6 +426,15 @@ export default {}
   .w {
     min-width: 100vw;
     max-width: 100vw;
+  }
+}
+.jz-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  img {
+    width: 48%;
+    margin-bottom: 50px;
   }
 }
 </style>

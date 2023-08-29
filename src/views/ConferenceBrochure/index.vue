@@ -18,7 +18,7 @@
         researchers, practitioners, and industry experts from academia and industry to submit their work and participate
         in this exciting event.
       </div>
-      <h1 class="big-title">Paper Abstract</h1>
+      <h1 class="big-title">Accepted Papers</h1>
       <div class="cente-text mg-bottom">
         <div class="cente-title mg">Oral Presentation 1: Financial Large Language Models: A Survey</div>
         Abstract: In recent years, the emergence of a series of large language models, such as ChatGPT, and their

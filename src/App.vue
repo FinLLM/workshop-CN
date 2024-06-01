@@ -11,23 +11,17 @@
         <span
           style="cursor: pointer"
           @click="$router.replace('/cn')"
-          >FinLLM 2023</span
+          >FinLLM 2024</span
         >
-        <div class="right">
-          <img
-            src="@/assets/img/ijcai.png"
-            alt=""
-          />
-        </div>
       </div>
     </div>
     <router-view />
     <div class="footer padding">
       <div>
-        <div class="email-icon"></div>
+        <!-- <div class="email-icon"></div> -->
         <div class="email-info">
-          <p>如有任何疑问，请发送电子邮件至：</p>
-          <p style="color: #b3ebff">finllm2023@easychair.org</p>
+          <p>粤ICP备 2024250148</p>
+          <!-- <p style="color: #b3ebff">finllm2023@easychair.org</p> -->
         </div>
       </div>
     </div>

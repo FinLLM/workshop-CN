@@ -2,21 +2,32 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import CnPage from '@/views/CnPage/index.vue'
-import EnPage from '@/views/EnPage/index.vue'
+import Cn2024 from '@/views/2024/CnPage/index.vue'
+
 const routes = [
   {
     path: '/',
-    redirect: '/cn',
+    redirect: '/2024-CN',
   },
   {
-    path: '/cn',
+    path: '/2024-CN',
+    name: 'CnPage',
+    component: Cn2024,
+  },
+  {
+    path: '/2024-EN',
+    name: 'CnPage',
+    component: () => import('@/views/2024/EnPage/index.vue'),
+  },
+  {
+    path: '/2023-CN',
     name: 'CnPage',
     component: CnPage,
   },
   {
-    path: '/en',
+    path: '/2023-en',
     name: 'EnPage',
-    component: EnPage,
+    component: () => import('@/views/EnPage/index.vue'),
   },
   {
     path: '/registration',

@@ -7,6 +7,22 @@
       </div>
     </div>
     <div class="center-box w padding">
+      <div class="center-img-box">
+        <div class="center-text-box">
+          <div class="center-text-content">
+            <div class="center-text-top">
+              <span class="center-text-title">Symposium Date: <br /></span>
+              <span class="center-text-body">August 24, 2024 <br /></span>
+            </div>
+            <span class="center-text-title">Venue: <br /></span>
+            <span class="center-text-body">Doubletree By Hilton Zhuhai Hengqin</span>
+          </div>
+        </div>
+        <img
+          class="center-img"
+          src="@/assets/img/address-bg.png"
+        />
+      </div>
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
         Large language models (LLMs) have demonstrated tremendous potential in various natural language processing
@@ -29,31 +45,47 @@
           We welcome submissions on recent advances and applications of large language models (LLMs) in financial
           services. We encourage submissions that cover a wide range of topics, including but not limited to:
         </div>
-        <div class="cente-text-cente flex">
+        <div class="cente-text-cente center-flex">
           <div class="text">
-            <span>Techniques: </span>
-            <br />-Multimodal modeling of financial data using LLMs <br />-Preprocessing and cleaning of financial data
-            for use with LLMs <br />-Integration of LLMs with other AI technologies in financial services <br />-Novel
-            architectures and training techniques for LLMs in financial services. <br />-Scalability and efficiency of
-            LLMs in financial services <br />-Cross-lingual and multilingual LLMs in financial services
-            <br />-Human-in-the-loop approaches for LLMs in financial services <br /><br />
-            <span>Applications:</span>
-            <br />-Financial forecasting using LLMs <br />-Sentiment analysis and opinion mining for financial data
-            <br />-LLM-based trading algorithms and decision-making systems <br />-Analysis of financial news and social
-            media using LLMs <br />-Semantic analysis of financial reports and filings <br />-Explainable AI in
-            financial services using LLMs <br />-Transfer learning and domain adaptation for LLMs in financial services
-            <br />-Case studies and success stories of LLMs in financial services <br /><br />
-            <span>Challenges:</span>
-            <br />-Evaluation of LLMs for financial services <br />-Social economics and trustworthiness for LLMs in
-            financial services <br />-Ethical and legal considerations in the use of LLMs in financial services
-            <br />-Privacy and security concerns in the use of LLMs for financial data <br />-Bias and fairness
-            considerations in the use of LLMs for financial services
+            <div class="text-title">
+              <span>Techniques:</span>
+            </div>
+            <div class="text-body">
+              <div>-Multimodal modeling of financial data using LLMs</div>
+              <div>-Preprocessing and cleaning of financial data for use with LLMs</div>
+              <div>-Integration of LLMs with other AI technologies in financial services</div>
+              <div>-Novel architectures and training techniques for LLMs in financial services.</div>
+              <div>-Scalability and efficiency of LLMs in financial services</div>
+              <div>-Cross-lingual and multilingual LLMs in financial services</div>
+              <div>-Human-in-the-loop approaches for LLMs in financial services</div>
+            </div>
           </div>
-          <div class="img-box">
-            <img
-              src="@/assets/img/IMG.png"
-              alt=""
-            />
+          <div class="text">
+            <div class="text-title">
+              <span>Applications:</span>
+            </div>
+            <div class="text-body">
+              <div>-Financial forecasting using LLMs</div>
+              <div>-Sentiment analysis and opinion mining for financial data</div>
+              <div>-LLM-based trading algorithms and decision-making systems</div>
+              <div>-Analysis of financial news and social media using LLMs</div>
+              <div>-Semantic analysis of financial reports and filings</div>
+              <div>-Explainable AI in financial services using LLMs</div>
+              <div>-Transfer learning and domain adaptation for LLMs in financial services</div>
+              <div>-Case studies and success stories of LLMs in financial services</div>
+            </div>
+          </div>
+          <div class="text">
+            <div class="text-title">
+              <span>Challenges:</span>
+            </div>
+            <div class="text-body">
+              <div>-Evaluation of LLMs for financial services</div>
+              <div>-Social economics and trustworthiness for LLMs in financial services</div>
+              <div>-Ethical and legal considerations in the use of LLMs in financial services</div>
+              <div>-Privacy and security concerns in the use of LLMs for financial data</div>
+              <div>-Bias and fairness considerations in the use of LLMs for financial services</div>
+            </div>
           </div>
         </div>
       </div>
@@ -62,47 +94,31 @@
         <div class="card">
           <p class="title">Submission Due:</p>
           <p class="timer">
-            <span class="month">TBA</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
+            <span class="month">July 31, 2024</span>
+            <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
           <p class="title">Notification Due:</p>
           <p class="timer">
-            <span class="month">TBA</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
+            <span class="month">August 14, 2024</span>
+            <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
           <p class="title">Final Version Due:</p>
           <p class="timer">
-            <span class="month">TBA</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
+            <span class="month">August 20, 2024</span>
+            <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
           <p class="title">Symposium Date:</p>
           <p class="timer">
-            <span class="month">t</span>
+            <span class="month">August 24, 2024</span>
           </p>
         </div>
       </div>
-      <!-- <h1>Submission Instructions</h1>
-      <div class="cente-text mg-bottom">
-        <div class="cente-text-cente justify">
-          Submissions should be a maximum of 7 and a minimum of 4 pages including figures and tables in IJCAI'23 format.
-          Additional pages containing only cited references are allowed. We do accept submissions of work recently
-          published or currently under review. The submissions can contain author details. The Symposium will not have
-          formal proceedings, but authors of accepted papers can choose to have their work published on the Symposium
-          webpage. Top selected papers from the Symposium will be invited to publish in a journal special issue.
-          <br /><br />
-
-          We recommend submitting your paper through EasyChair. The paper submission link is as follows:<br />
-          <a href="https://easychair.org/conferences/?conf=finllm2023">
-            https://easychair.org/conferences/?conf=finllm2023</a
-          >
-        </div>
-      </div> -->
     </div>
     <div class="middle">
       <div class="w padding">
@@ -122,62 +138,6 @@
       </div>
     </div>
     <div class="center-box w padding">
-      <!-- <h1>Organization</h1>
-      <div class="item-box">
-        <div class="item-box-right">
-          <p>Invited Speakers</p>
-          <div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/Mark Dredze.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Mark Dredze(online)</p>
-                <p class="note">Bloomberg</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/白硕.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Shuo Bai</p>
-                <p class="note">Hundsun Technologies</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/王巍巍.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Weiwei Wang</p>
-                <p class="note">Alibaba DAMO Academy</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/皱胜.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Sheng Zou</p>
-                <p class="note">Archforce Technology</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
       <p><br /></p>
       <h1>Organizers of Organizing Committee</h1>
       <div class="cente-text mg-bottom">
@@ -599,8 +559,20 @@ export default {}
       font-weight: 700;
       margin-bottom: 34px;
     }
+    .center-flex {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
     .cente-text-cente {
+      text {
+        margin-right: 16px;
+      }
+
       text-align: left;
+      @media (max-width: 750px) {
+        display: block;
+      }
       span {
         font-size: 26px;
         font-weight: 700;

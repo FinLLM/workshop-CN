@@ -7,6 +7,22 @@
       </div>
     </div>
     <div class="center-box w padding">
+      <div class="center-img-box">
+        <div class="center-text-box">
+          <div class="center-text-content">
+            <div class="center-text-top">
+              <span class="center-text-title">研讨会日期: <br /></span>
+              <span class="center-text-body">2024年8月24日 <br /></span>
+            </div>
+            <span class="center-text-title">会议地点: <br /></span>
+            <span class="center-text-body">珠海横琴希尔顿逸林酒店</span>
+          </div>
+        </div>
+        <img
+          class="center-img"
+          src="@/assets/img/address-bg.png"
+        />
+      </div>
       <h1>研讨范围和目标</h1>
       <div class="cente-text mg-bottom">
         大型语言模型（LLMs）在各类自然语言处理任务中展示了巨大的潜力，包括语言生成、机器翻译及智能问答等领域。在金融服务行业中，预训练的LLMs可以对投资研究、风险管理、市场分析和客户服务等工作产生重大影响。
@@ -22,28 +38,52 @@
         <div class="cente-text-title">
           我们欢迎关于大型语言模型（LLMs）在金融服务领域中的最新进展和应用的投稿。我们鼓励提交涵盖广泛主题的论文，包括但不限于以下内容：
         </div>
-        <div class="cente-text-cente flex">
+        <div class="cente-text-cente center-flex">
           <div class="text">
-            <span>技术: </span>
-            <br />- 使用LLMs进行金融数据的多模态建模 <br />- 为LLMs准备和清洗金融数据 <br />-
-            将LLMs与金融服务中的其他AI技术集成 <br />- 金融服务中LLMs的新型架构和训练技术 <br />-
-            LLMs在金融服务中的可扩展性和效率 <br />- 金融服务中的跨语言和多语言LLMs <br />- 金融服务中的LLMs人机回圈
-            <br /><br /><span>应用:</span><br />
-            - 使用LLMs进行金融预测 <br />- 针对金融数据的情感分析和意见挖掘 <br />- 基于LLMs的交易算法和决策系统 <br />-
-            使用LLMs分析金融新闻和社交媒体 <br />- 金融研究报告的语义分析 <br />- 使用LLMs实现金融服务中的可解释性AI
-            <br />- 金融服务中LLMs的迁移学习和领域自适应 <br />- LLMs在金融服务中的案例研究和成功故事 <br /><br /><span
-              >挑战:</span
-            ><br />
-            - 评估LLMs在金融服务中的效果 <br />- LLMs在金融服务中的社会经济和可信度 <br />-
-            使用LLMs在金融服务中的道德和法律考虑因素 <br />- 使用LLMs处理金融数据时的隐私和安全问题 <br />-
-            在金融服务中使用LLMs时的偏见和公平性问题
+            <div class="text-title">
+              <span>技术: </span>
+            </div>
+            <div class="text-body">
+              <div>- 使用大模型处理和清洗金融领域数据</div>
+              <div>- 适配金融领域大模型的新型模型架构和训练技术</div>
+              <div>- 大模型在金融领域中的能力延展和应用效率研究</div>
+              <div>- 金融领域研究中的跨语言和多语言大模型应用</div>
+              <div>- 使用大模型进行多模态金融数据建模</div>
+              <div>- 金融领域大模型与其他AI技术集成服务</div>
+              <div>- 人在回路的金融领域大模型</div>
+            </div>
           </div>
-          <div class="img-box">
+          <div class="text">
+            <div class="text-title">
+              <span>应用: </span>
+            </div>
+            <div class="text-body">
+              <div>- 基于大模型进行金融指标预测</div>
+              <div>- 基于大模型的交易算法和决策系统</div>
+              <div>- 使用大语言模型分析金融新闻、社交媒体、金融研究报告等</div>
+              <div>- 使用大模型实现金融服务中的可解释性AI</div>
+              <div>- 金融服务中大模型的迁移学习和领域自适应研究</div>
+              <div>- 大模型在金融服务中的案例研究和成功路径分享</div>
+            </div>
+          </div>
+          <div class="text">
+            <div class="text-title">
+              <span>挑战: </span>
+            </div>
+            <div class="text-body">
+              <div>- 大模型在金融服务中的效果评测</div>
+              <div>- 大模型在金融服务中的价度量值和可信度判断</div>
+              <div>- 使用大模型在金融服务中的道德和法律考虑因素</div>
+              <div>- 使用大模型在金融服务中的隐私和安全性问题</div>
+              <div>- 使用大模型在金融服务中的偏见和公平性问题</div>
+            </div>
+          </div>
+          <!-- <div class="img-box">
             <img
               src="@/assets/img/IMG.png"
               alt=""
             />
-          </div>
+          </div> -->
         </div>
       </div>
       <h1>重要日期</h1>
@@ -51,28 +91,28 @@
         <div class="card">
           <p class="title">研讨会论文提交截止日期:</p>
           <p class="timer">
-            <span class="month">待确定</span>
+            <span class="month">2024年7月31日</span>
             <!-- <span class="date">(23:59:59 AoE)</span> -->
           </p>
         </div>
         <div class="card">
           <p class="title">通知截止时间:</p>
           <p class="timer">
-            <span class="month">待确定</span>
+            <span class="month">2024年8月14日</span>
             <!-- <span class="date">(23:59:59 AoE)</span> -->
           </p>
         </div>
         <div class="card">
           <p class="title">正稿论文提交截止日期:</p>
           <p class="timer">
-            <span class="month">待确定</span>
+            <span class="month">2024年8月20日</span>
             <!-- <span class="date">(23:59:59 AoE)</span> -->
           </p>
         </div>
         <div class="card">
           <p class="title">研讨会日期:</p>
           <p class="timer">
-            <span class="month">待确定</span>
+            <span class="month">2024年8月24日</span>
           </p>
         </div>
       </div>
@@ -220,39 +260,18 @@
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
-          <!-- <span>杨强: </span>
-          微众银行首席人工智能官，香港科技大学计算机科学与工程系系主任，新明工程学讲座教授。AAAI Fellow, IEEE Fellow,
-          AAAS Fellow, IAPR Fellow和ACM杰出科学家。IJCAI主席（2017-2019），ACM
-          SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
-          Google Scholar: <br />
-          <a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
-            >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
-          > -->
-          <!-- <br /><br /> -->
           <span>陈丽园: </span>
           易方达基金首席营运官，易方达基金金融科技执行委员会主席。
           <br /><br />
           <span>刘硕凌: </span>
           易方达基金创新研究中心总经理，易方达基金金融科技执行委员会秘书长，中国证券基金业协会金融科技专委会委员。
           <br /><br />
-          <!-- <span>吴学阳: </span>
-          香港科技大学博士（2023），Flaiverse联合创始人和首席科学家。研究方向：迁移学习、联邦学习、自然语言处理、LLMs。发表多篇研究论文和专利，审稿人：NeurIPS、KDD、ICML、ICLR等。
-          <br /><br /> -->
           <span>唐永鹏: </span>
           易方达基金董事总经理，系统研发中心总经理，易方达基金金融科技执行委员会委员，高级金融科技专家。
           <!-- 高级金融科技专家，易方达基金系统研发中心总经理。拥有20年以上经验。拥有10个以上与金融科技相关的专利。获得奖项：中国人民银行年度金融科技发展（2020）。曾在AI和金融论坛上发表主题演讲。 -->
           <br /><br />
-          <!-- <span>徐倩: </span>
-          香港科技大学博士（2011），香港科技大学（广州）兼职副教授。研究方向：人工智能、迁移学习、联邦学习、自然语言处理、LLMs。曾在百度和微众银行工作，GSAIR执行董事和GBA人工智能与机器人学会创始成员。 -->
         </div>
       </div>
-      <!-- <h1>主要会议信息</h1>
-      <div class="cente-text mg-bottom">
-        <div class="cente-text-cente">
-          第32届国际人工智能联合会议（IJCAI 2023）<br />2023年8月19日至25日 <br />澳门<br />
-          <a href="https://ijcai-23.org/">https://ijcai-23.org/</a>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>
@@ -610,9 +629,20 @@ export default {}
       margin-bottom: 34px;
     }
 
-    .cente-text-cente {
-      text-align: left;
+    .center-flex {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
 
+    .cente-text-cente {
+      text {
+        margin-right: 16px;
+      }
+      text-align: left;
+      @media (max-width: 750px) {
+        display: block;
+      }
       span {
         font-size: 26px;
         font-weight: 600;
@@ -815,58 +845,6 @@ export default {}
             }
           }
         }
-
-        // & > div {
-        //   width: 90px;
-        //   // background: url('@/assets/img/rect.png') no-repeat;
-        //   // background-size: cover;
-        //   // display: flex;
-        //   // align-items: center;
-        //   display: flex;
-        //   align-items: center;
-        //   color: #ffffff;
-        //   // overflow: hidden;
-        //   @media (max-width: 750px) {
-        //     width: 180px;
-        //   }
-        //   & > div {
-        //     font-size: 26px;
-        //     color: #292f36;
-        //     font-weight: 600;
-        //     text-align: center;
-        //     &.img-box {
-        //       // height: 90px;
-        //       border-radius: 50%;
-        //       overflow: hidden;
-        //       margin-bottom: 10px;
-        //       // @media (max-width: 750px) {
-        //       //   height: 180px;
-        //       // }
-        //     }
-        //     @media (max-width: 750px) {
-        //       font-size: 42px;
-        //     }
-        //   }
-        //   img {
-        //     width: 100%;
-        //     height: 100%;
-        //   }
-        //   @media (max-width: 750px) {
-        //     width: 180px;
-        //     height: 180px;
-        //     margin-top: 40px;
-        //   }
-        //   @media (max-width: 375px) {
-        //     width: 200px;
-        //     height: 200px;
-        //     margin-top: 40px;
-        //   }
-        // }
-        // @media (max-width: 750px) {
-        //   .isH5 {
-        //     display: none;
-        //   }
-        // }
       }
 
       p {

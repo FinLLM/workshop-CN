@@ -126,13 +126,13 @@
         <div>
           <div class="middle-mg">
             <span>Morning:</span>
-            <br />• 08:30 - 09:00 Registeration<br />• 09:00 - 10:00 Invited talks <br />• 10:00 - 10:45 Oral
-            presentations <br />• 10:45 - 11:00 Break <br />• 11:00 - 11:45 Oral presentations
+            <br />• 08:30 - 09:00 Registeration<br />• 09:00 - 10:45 Invited talks <br />• 10:45 - 11:00 Break <br />•
+            11:00 - 11:45 Oral presentations
           </div>
           <div>
             <span>Afternoon:</span>
-            <br />• 13:00 - 14:30 Invited talks <br />• 14:30 - 15:15 Oral presentations <br />• 15:15 - 15:30 Break
-            <br />• 15:30 - 16:30 Panel Discussion <br />• 16:30 - 17:00 Award Ceremony
+            <br />• 13:30 - 15:15 Invited talks <br />• 15:15 - 15:30 Break <br />• 15:30 - 16:30 Invited talks <br />•
+            16:30 - 17:00 Award Ceremony
           </div>
         </div>
       </div>
@@ -207,69 +207,23 @@
                 <p class="note">E Fund</p>
               </div>
             </div>
-            <!-- <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/xueyangWu.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Xueyang Wu</p>
-                <p class="note">Flaiverse</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/qianxu.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Qian Xu</p>
-                <p class="note">HKUST</p>
-              </div> -->
-            <!-- </div> -->
           </div>
         </div>
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
-          <!-- <span>Qiang Yang: </span>
-          Chief AI Officer of WeBank, Department Head of Computer Science and Engineering at the Hong Kong University of
-          Science and Technology, New Bright Professorship in Engineering. AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR
-          Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice Chair of ACM SIGART (SIGAI)
-          (2009-2012), PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).<br />
-          Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
-            >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
-          ><br /><br /> -->
           <span>Liyuan Chen: </span>
           Chief Operating Officer of E Fund Management, Chairman of the E Fund FinTech Executive Committee.<br /><br />
           <span>Shuoling Liu: </span>
           Head of Institute of Innovation at E Fund Management, Secretary-General of E Fund FinTech Executive Committee,
           Member of the FinTech Special Committee of AMAC. <br /><br />
-          <!-- <span>Xueyang Wu: </span>
-          PhD, HKUST (2023), Co-founder & Principal Scientist at Flaiverse. Research interests: transfer learning,
-          federated learning, NLP, LLMs. Publications: research papers & patents. Reviewer: NeurIPS, KDD, ICML, ICLR,
-          etc. <br /><br /> -->
           <span>Yongpeng Tang: </span>
           MD, Head of Application Development at E Fund Management, Member of E Fund Fintech Executive Committee, Senior
           FinTech expert. <br /><br />
-          <!-- <span>Qian Xu: </span>
-          PhD, HKUST (2011), Adjunct Associate Professor at HKUST(GZ). Research interests: AI, transfer learning,
-          federated learning, NLP, LLMs. Experience at Baidu Inc. & Webank Inc. Executive Director of GSAIR & Founding
-          Member of GBA Society of AI and Robotics. -->
         </div>
       </div>
-      <h1>The Main Conference Information</h1>
-      <div class="cente-text mg-bottom">
-        <!-- <div class="cente-text-cente">
-          IJCAI 2023, <br />THE 32nd INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE. <br />19th-25th August
-          2023 <br />Macao, S.A.R <br />
-          <a href="https://ijcai-23.org/">https://ijcai-23.org/</a>
-        </div> -->
-      </div>
+      <!-- <h1>The Main Conference Information</h1> -->
+      <div class="cente-text mg-bottom"></div>
     </div>
   </div>
 </template>

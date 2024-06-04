@@ -135,74 +135,18 @@
         <div>
           <div class="middle-mg">
             <span>上午:</span>
-            <br />• 08:30 - 09:00 嘉宾签到<br />• 09:00 - 10:00 特邀演讲 <br />• 10:00 - 10:45 陈述报告 <br />• 10:45 -
-            11:00 休息 <br />• 11:00 - 11:45 陈述报告
+            <br />• 08:30 - 09:00 嘉宾签到<br />• 09:00 - 10:45 特邀演讲 <br />• 10:45 - 11:00 茶歇 <br />• 11:00 -
+            11:45 陈述报告
           </div>
           <div>
             <span>下午:</span>
-            <br />• 13:00 - 14:30 特邀演讲 <br />• 14:30 - 15:15 陈述报告 <br />• 15:15 - 15:30 休息 <br />• 15:30 -
-            16:30 嘉宾讨论 <br />• 16:30 - 17:00 颁奖仪式
+            <br />• 13:30 - 15:15 特邀演讲 <br />• 15:15 - 15:30 茶歇 <br />• 15:30 - 16:30 特邀演讲 <br />• 16:30 -
+            17:00 颁奖仪式
           </div>
         </div>
       </div>
     </div>
     <div class="center-box w padding">
-      <!-- <h1>参与嘉宾</h1>
-      <div class="item-box">
-        <div class="item-box-right">
-          <p>特邀演讲嘉宾</p>
-          <div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/Mark Dredze.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Mark Dredze(远程)</p>
-                <p class="note">彭博</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/白硕.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">白硕</p>
-                <p class="note">恒生电子</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/王巍巍.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">王巍巍</p>
-                <p class="note">阿里巴巴达摩院</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/皱胜.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">邹胜</p>
-                <p class="note">华锐金融技术</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
       <p><br /></p>
       <h1>组委会成员</h1>
       <div class="cente-text mg-bottom">

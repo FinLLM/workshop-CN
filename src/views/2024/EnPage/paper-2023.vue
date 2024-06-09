@@ -10,248 +10,99 @@
       <div class="w padding flex">
         <span
           style="cursor: pointer"
-          @click="$router.replace('/')"
+          @click="$router.replace('/2024-EN')"
           >FinLLM 2024
         </span>
       </div>
     </div>
-    <div class="subtitle padding w">
-      <div class="sub-text">
-        国际金融服务大型语言模型研讨会<br />
-        (FinLLM 2024)
-      </div>
-    </div>
     <div class="center-box w padding">
-      <div class="center-img-box">
-        <div class="center-text-box">
-          <div class="center-text-content">
-            <div class="center-text-top">
-              <span class="center-text-title">研讨会日期: <br /></span>
-              <span class="center-text-body">2024年8月24日 <br /></span>
-            </div>
-            <span class="center-text-title">会议地点: <br /></span>
-            <span class="center-text-body">珠海横琴希尔顿逸林酒店</span>
-          </div>
-        </div>
-        <img
-          class="center-img"
-          src="@/assets/img/address-bg.png"
-        />
-      </div>
-      <h1>研讨范围和目标</h1>
+      <h1>Introduction to Previous Conferences</h1>
       <div class="cente-text mg-bottom">
-        大型语言模型（LLMs）在各类自然语言处理任务中展示了巨大的潜力，包括语言生成、机器翻译及智能问答等领域。在金融服务行业中，预训练的LLMs可以对投资研究、风险管理、市场分析和客户服务等工作产生重大影响。
-        此外，预训练的LLMs可以协助金融从业者自动化分析研究报告及各类金融数据，并提取有助于企业做出明智决策的关键见解，助力决策智能化。
+        XuanYuan: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
+        <br />
+        Abstract: In recent years, pre-trained language models have undergone rapid development with the emergence of
+        large-scale models. However, there is a lack of open-sourced chat models specifically designed for the Chinese
+        language, especially in the field of Chinese finance, at the scale of hundreds of billions. To address this gap,
+        we introduce XuanYuan 2.0 (轩辕 2.0), the largest Chinese chat model to date, built upon the BLOOM-176B
+        architecture. To enable the model to generate a larger quantity of correct and financial instruction data, we
+        introduce an innovative framework named SELF-QA, which replaces the traditional practice of human-written
+        instruction seeds with a vast amount of unsupervised knowledge. Additionally, we propose a novel training method
+        called Hybrid-tuning to mitigate catastrophic forgetting. By combining general-domain with domain-specific
+        knowledge and integrating the stages of pre-training and fine-tuning, XuanYuan 2.0 is capable of providing
+        accurate and contextually appropriate responses in the Chinese financial domain. Our model has been made public
+        on Github and Huggingface, and has received widespread attention.
         <br /><br />
-        本次研讨会为来自世界各地的研究人员、实践者和行业专家提供了交流平台，让大家分享新思想、交流研究发现、并讨论LLMs在金融服务领域中面临的挑战和机遇。
-        研讨会将涵盖两个主题：1）LLMs在金融服务中的潜在应用和最佳实践；2）需要解决的挑战，提升LLMs效率、效果及可信度。
+        Financial Large Language Models: A Survey
+        <br />
+        Abstract: In recent years, the emergence of a series of large language models, such as ChatGPT, and their
+        powerful performance have garnered significant attention from both academia and industry. Expanding the
+        application of these models and technologies to specialized fields, specifically the financial industry, has
+        become an intriguing research topic, given its potential for immense value and impact. However, it is apparent
+        that the financial industry presents a unique set of challenges for general large language models, due to its
+        inherently complex and dynamic nature. In this survey, we will review the existing academic work on large
+        language models in the financial domain, and summarize the unique and specific features of the financial field
+        compared to general domains. In addition, we will examine several key peculiarities and discuss relevant
+        research works in the field of large language models. Ultimately, the findings of this paper provide insights
+        into the challenges and opportunities of deploying large language models in the financial field, and contribute
+        to a better understanding of the possibilities for optimizing their performance in complex and specialized
+        domains.
         <br /><br />
-        研讨会还将邀请领先的研究人员和行业专家发表演讲，并就该领域的最新趋势和挑战进行小组讨论。我们欢迎来自学术界和行业的研究人员、实践者和行业专家提交他们的研究成果。
-      </div>
-      <h1>论文征集启事</h1>
-      <div class="cente-text mg-bottom">
-        <div class="cente-text-title">
-          我们欢迎关于大型语言模型（LLMs）在金融服务领域中的最新进展和应用的投稿。我们鼓励提交涵盖广泛主题的论文，包括但不限于以下内容：
-        </div>
-        <div class="cente-text-cente center-flex">
-          <div class="text">
-            <div class="text-title">
-              <span>技术: </span>
-            </div>
-            <div class="text-body">
-              <div>- 使用大模型处理和清洗金融领域数据</div>
-              <div>- 适配金融领域大模型的新型模型架构和训练技术</div>
-              <div>- 大模型在金融领域中的能力延展和应用效率研究</div>
-              <div>- 金融领域研究中的跨语言和多语言大模型应用</div>
-              <div>- 使用大模型进行多模态金融数据建模</div>
-              <div>- 金融领域大模型与其他AI技术集成服务</div>
-              <div>- 人在回路的金融领域大模型</div>
-            </div>
-          </div>
-          <div class="text">
-            <div class="text-title">
-              <span>应用: </span>
-            </div>
-            <div class="text-body">
-              <div>- 基于大模型进行金融指标预测</div>
-              <div>- 基于大模型的交易算法和决策系统</div>
-              <div>- 使用大语言模型分析金融新闻、社交媒体、金融研究报告等</div>
-              <div>- 使用大模型实现金融服务中的可解释性AI</div>
-              <div>- 金融服务中大模型的迁移学习和领域自适应研究</div>
-              <div>- 大模型在金融服务中的案例研究和成功路径分享</div>
-            </div>
-          </div>
-          <div class="text">
-            <div class="text-title">
-              <span>挑战: </span>
-            </div>
-            <div class="text-body">
-              <div>- 大模型在金融服务中的效果评测</div>
-              <div>- 大模型在金融服务中的价度量值和可信度判断</div>
-              <div>- 使用大模型在金融服务中的道德和法律考虑因素</div>
-              <div>- 使用大模型在金融服务中的隐私和安全性问题</div>
-              <div>- 使用大模型在金融服务中的偏见和公平性问题</div>
-            </div>
-          </div>
-          <!-- <div class="img-box">
-            <img
-              src="@/assets/img/IMG.png"
-              alt=""
-            />
-          </div> -->
-        </div>
-      </div>
-      <h1>重要日期</h1>
-      <div class="card-box mg-bottom">
-        <div class="card">
-          <p class="title">研讨会论文提交截止日期:</p>
-          <p class="timer">
-            <span class="month">2024年7月31日</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
-          </p>
-        </div>
-        <div class="card">
-          <p class="title">通知截止时间:</p>
-          <p class="timer">
-            <span class="month">2024年8月14日</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
-          </p>
-        </div>
-        <div class="card">
-          <p class="title">正稿论文提交截止日期:</p>
-          <p class="timer">
-            <span class="month">2024年8月20日</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
-          </p>
-        </div>
-        <div class="card">
-          <p class="title">研讨会日期:</p>
-          <p class="timer">
-            <span class="month">2024年8月24日</span>
-          </p>
-        </div>
-      </div>
-      <h1>提交说明</h1>
-      <div class="cente-text mg-bottom">
-        <div class="cente-text-cente justify">
-          我们建议通过EasyChair提交论文。论文提交链接如下：<br />
-          <a href="https://easychair.org/conferences/?conf=finllm2024">
-            https://easychair.org/conferences/?conf=finllm2024</a
-          >
-        </div>
-      </div>
-    </div>
-    <div class="middle">
-      <div class="w padding">
-        <h1>暂定日程安排：</h1>
-        <div>
-          <div class="middle-mg">
-            <span>上午:</span>
-            <br />• 08:30 - 09:00 嘉宾签到<br />• 09:00 - 10:45 特邀演讲 <br />• 10:45 - 11:00 茶歇 <br />• 11:00 -
-            11:45 陈述报告
-          </div>
-          <div>
-            <span>下午:</span>
-            <br />• 13:30 - 15:15 特邀演讲 <br />• 15:15 - 15:30 茶歇 <br />• 15:30 - 16:30 特邀演讲 <br />• 16:30 -
-            17:00 颁奖仪式
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="center-box w padding">
-      <p><br /></p>
-      <h1>组委会成员</h1>
-      <div class="cente-text mg-bottom">
-        <div class="centet-people">
-          <div class="left-title">大会主席</div>
-          <div class="people-box">
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/9.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">陈丽园</p>
-                <p class="note">易方达基金</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="centet-people">
-          <div class="left-title">程序委员会主席</div>
-          <div class="people-box">
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/6.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">刘硕凌</p>
-                <p class="note">易方达基金</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="centet-people">
-          <div class="left-title">大会组织者</div>
-          <div class="people-box">
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/yongpeng tang.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">唐永鹏</p>
-                <p class="note">易方达基金</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/dailu.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">戴路</p>
-                <p class="note">易方达基金</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="cente-text mg-bottom">
-        <div class="cente-text-cente justify">
-          <span>陈丽园: </span>
-          易方达基金首席营运官，易方达基金金融科技执行委员会主席。
-          <br /><br />
-          <span>刘硕凌: </span>
-          易方达基金创新研究中心总经理，易方达基金金融科技执行委员会秘书长，中国证券基金业协会金融科技专委会委员。
-          <br /><br />
-          <span>唐永鹏: </span>
-          易方达基金董事总经理，系统研发中心总经理，易方达基金金融科技执行委员会委员，高级金融科技专家。
-          <br /><br />
-          <span>戴 路: </span>
-          中山大学博士，易方达基金金融科技技术委员会主席，高级金融科技专家。
-          <br /><br />
-        </div>
-        <h1>往届会议信息</h1>
-        <div class="cente-text mg-bottom">
-          <div class="cente-text-cente">
-            <a
-              href="#"
-              @click="$router.push('/2023-Paper-CN')"
-            >
-              Finllm 2023 国际金融服务大型语言模型研讨会
-            </a>
-          </div>
-        </div>
+        An Effective Data Creation Pipeline to Generate High-Quality Financial Instruction Data for Large Language Model
+        <br />
+        Abstract: At the beginning era of large language model, it is quite critical to generate a high-quality
+        financial dataset to fine-tune a large language model for financial related tasks. Thus, this paper presents a
+        carefully designed data creation pipeline for this purpose. Particularly, we initiate a dialogue between an AI
+        investor and financial expert using ChatGPT and incorporate the feedback of human financial experts, leading to
+        the refinement of the dataset. This pipeline yielded a robust instruction tuning dataset comprised of 103k
+        multi-turn chats. Extensive experiments have been conducted on this dataset to evaluate the model’s performance
+        by adopting an external GPT-4 as the judge. The promising experimental results verify that our approach led to
+        significant advancements in generating accurate, relevant, and financial-style responses from AI models, and
+        thus providing a powerful tool for applications within the financial sector.
+        <br /><br />
+        Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction
+        <br />
+        Abstract: The remarkable achievements and rapid advancements of Large Language Models (LLMs) such as ChatGPT and
+        GPT-4 have showcased their immense potential in quantitative investment. Traders can effectively leverage these
+        LLMs to analyze financial news and predict stock returns accurately. However, integrating LLMs into existing
+        quantitative models presents two primary challenges: the insufficient utilization of semantic information
+        embedded within LLMs and the difficulties in aligning the latent information within LLMs with pre-existing
+        quantitative stock features. We propose a novel framework consisting of two components to surmount these
+        challenges. The first component, the Local Global model, approaches understanding stock features and financial
+        news (through LLMs) as a unified problem. The second component, Self-Correlated Reinforcement Learning, focuses
+        on aligning the embeddings of financial news generated by LLMs with stock features within the same semantic
+        space. By implementing our framework, we have demonstrated superior performance in Rank Information Coefficient
+        and returns, particularly compared to models relying only on stock features in the China A-share market.
+        <br /><br />
+        FinGPT: Open-Source Financial Large Language Models
+        <br />
+        Abstract: Large language models (LLMs) have shown the potential of revolutionizing natural language processing
+        in diverse domains, sparking great interest in finance. However, the finance domain presents unique challenges,
+        including high temporal sensitivity, constant dynamism, and a low signal-to-noise ratio (SNR). While proprietary
+        models like BloombergGPT have taken advantage of their unique data accumulation, such privileged access calls
+        for an open-source alternative to democratize internet-scale financial data. In this paper, we present an
+        open-source large language model, FinGPT, for the finance sector. Unlike proprietary models, FinGPT takes a
+        data-centric approach, providing researchers and practitioners with accessible and transparent resources to
+        customize their financial LLMs (FinLLMs). We highlight the importance of an automatic data curation pipeline and
+        the lightweight low-rank adaptation technique in building FinGPT. Furthermore, we will showcase potential
+        applications as stepping stones for users, such as robo-advising and sentiment analysis. Through collaborative
+        efforts within the opensource AI4Finance community, FinGPT aims to stimulate innovation, democratize FinLLMs,
+        and unlock new opportunities in open finance. Two associated code repos are
+        https://github.com/AI4Finance-Foundation/FinGPT and https://github.com/AI4Finance-Foundation/FinNLP
+        <br /><br />
+        NumGPT: Improving Numeracy Ability of Generative Pre-trained Models
+        <br />
+        Abstract: Existing generative pre-trained language models (e.g., GPT) focus on modeling the language structure
+        and semantics of general texts. However, those models do not consider the numerical properties of numbers and
+        cannot perform robustly on numerical reasoning tasks (e.g., math word problems and measurement estimation). In
+        this paper, we propose NumGPT, a generative pre-trained model that explicitly models the numerical properties of
+        numbers in texts. Specifically, it leverages a prototype-based numeral embedding to encode the mantissa of the
+        number and an individual embedding to encode the exponent of the number. A numeral-aware loss function is
+        designed to integrate numerals into the pre-training objective of NumGPT. We conduct extensive experiments on
+        four different datasets to evaluate the numeracy ability of NumGPT. The experiment results show that NumGPT
+        outperforms baseline models (e.g., GPT and GPT with DICE) on a range of numerical reasoning tasks such as
+        measurement estimation, number comparison, math word problems, and magnitude classification. Ablation studies
+        are also conducted to evaluate the impact of pre-training and model hyperparameters on the performance.
+        <br />
       </div>
     </div>
   </div>

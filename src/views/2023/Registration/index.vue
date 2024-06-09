@@ -169,7 +169,7 @@ export default {}
 </script>
 
 <style lang="less" scoped>
-@import '../../style/global.less';
+@import '../../../style/global.less';
 .title {
   font-size: 40px;
   color: #0d152e;

@@ -1,5 +1,20 @@
 <template>
   <div class="home">
+    <div style="display: none">
+      <img
+        src="@/assets/img/logo.jpg"
+        alt=""
+      />
+    </div>
+    <div class="header">
+      <div class="w padding flex">
+        <span
+          style="cursor: pointer"
+          @click="$router.replace('/2024-EN')"
+          >FinLLM 2024
+        </span>
+      </div>
+    </div>
     <div class="subtitle padding w">
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
@@ -119,6 +134,15 @@
           </p>
         </div>
       </div>
+      <h1>Submission Instructions</h1>
+      <div class="cente-text mg-bottom">
+        <div class="cente-text-cente justify">
+          We recommend submitting your paper through EasyChair. The paper submission link is as follows:<br />
+          <a href="https://easychair.org/conferences/?conf=finllm2024">
+            https://easychair.org/conferences/?conf=finllm2024</a
+          >
+        </div>
+      </div>
     </div>
     <div class="middle">
       <div class="w padding">
@@ -207,6 +231,18 @@
                 <p class="note">E Fund</p>
               </div>
             </div>
+            <div class="info-box">
+              <div class="avt">
+                <img
+                  src="@/assets/img/dailu.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Lu Dai</p>
+                <p class="note">E Fund</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -219,11 +255,23 @@
           Member of the FinTech Special Committee of AMAC. <br /><br />
           <span>Yongpeng Tang: </span>
           MD, Head of Application Development at E Fund Management, Member of E Fund Fintech Executive Committee, Senior
-          FinTech expert. <br /><br />
+          FinTech Expert.
+          <br /><br />
+          <span>Lu Dai: </span>
+          PhD, Chairman of E Fund Fintech Technical Committee, Senior Fintech Expert.
+        </div>
+        <h1>Previous Conference</h1>
+        <div class="cente-text mg-bottom">
+          <div class="cente-text-cente">
+            <a
+              href="#"
+              @click="$router.push('/2023-Paper-EN')"
+            >
+              Finllm 2023 International Symposium on Large Language Models for Financial Services
+            </a>
+          </div>
         </div>
       </div>
-      <!-- <h1>The Main Conference Information</h1> -->
-      <div class="cente-text mg-bottom"></div>
     </div>
   </div>
 </template>

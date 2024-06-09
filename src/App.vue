@@ -1,27 +1,10 @@
 <template>
   <div id="app">
-    <div style="display: none">
-      <img
-        src="@/assets/img/logo.jpg"
-        alt=""
-      />
-    </div>
-    <div class="header">
-      <div class="w padding flex">
-        <span
-          style="cursor: pointer"
-          @click="$router.replace('/cn')"
-          >FinLLM 2024</span
-        >
-      </div>
-    </div>
     <router-view />
     <div class="footer padding">
       <div>
-        <!-- <div class="email-icon"></div> -->
         <div class="email-info">
           <p>粤ICP备 2024250148</p>
-          <!-- <p style="color: #b3ebff">finllm2023@easychair.org</p> -->
         </div>
       </div>
     </div>

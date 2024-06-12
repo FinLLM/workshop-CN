@@ -143,7 +143,7 @@
     </div>
     <div class="middle">
       <div class="w padding">
-        <h1>暂定日程安排：</h1>
+        <h1>日程安排：</h1>
         <div>
           <div class="middle-mg">
             <span>上午:</span>
@@ -246,9 +246,17 @@
           <div class="cente-text-cente">
             <a
               href="#"
+              @click="$router.push('/2023-CN')"
+            >
+              Finllm 2023 金融领域大语言模型研讨会
+            </a>
+          </div>
+          <div class="cente-text-cente">
+            <a
+              href="#"
               @click="$router.push('/2023-Paper-CN')"
             >
-              Finllm 2023 国际金融服务大型语言模型研讨会
+              Finllm 2023 主题汇报
             </a>
           </div>
         </div>

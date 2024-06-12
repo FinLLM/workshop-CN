@@ -265,9 +265,17 @@
           <div class="cente-text-cente">
             <a
               href="#"
-              @click="$router.push('/2023-Paper-EN')"
+              @click="$router.push('/2023-EN')"
             >
               Finllm 2023 International Symposium on Large Language Models for Financial Services
+            </a>
+          </div>
+          <div class="cente-text-cente">
+            <a
+              href="#"
+              @click="$router.push('/2023-Paper-EN')"
+            >
+              Finllm 2023 Thematic Report
             </a>
           </div>
         </div>

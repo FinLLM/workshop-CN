@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <!-- <div style="display: none">
+    <div style="display: none">
       <img
         src="@/assets/img/logo.jpg"
         alt=""
@@ -8,15 +8,13 @@
     </div>
     <div class="header">
       <div class="w padding flex">
-        <span>FinLLM 2023</span>
-        <div class="right">
-          <img
-            src="@/assets/img/ijcai.png"
-            alt=""
-          />
-        </div>
+        <span
+          style="cursor: pointer"
+          @click="$router.replace('/2024-EN')"
+          >FinLLM 2023
+        </span>
       </div>
-    </div> -->
+    </div>
     <div class="subtitle padding w">
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />

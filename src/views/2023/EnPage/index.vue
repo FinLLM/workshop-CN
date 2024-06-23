@@ -273,18 +273,6 @@
         <div class="centet-people">
           <div class="left-title">Program Chair</div>
           <div class="people-box">
-            <!-- <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/6.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Shuoling Liu</p>
-                <p class="note">E Fund</p>
-              </div>
-            </div> -->
             <div class="info-box">
               <div class="avt">
                 <img

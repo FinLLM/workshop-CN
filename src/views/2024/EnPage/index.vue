@@ -171,6 +171,18 @@
             <div class="info-box">
               <div class="avt">
                 <img
+                  src="@/assets/img/7.png"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Qiang Yang</p>
+                <p class="note">WeBank/HKUST</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="avt">
+                <img
                   src="@/assets/img/9.png"
                   alt=""
                 />
@@ -180,18 +192,6 @@
                 <p class="note">E Fund</p>
               </div>
             </div>
-            <!-- <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/7.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Qiang Yang</p>
-                <p class="note">WeBank/HKUST</p>
-              </div>
-            </div> -->
           </div>
         </div>
         <div class="centet-people">
@@ -248,6 +248,14 @@
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
+          <span>Qiang Yang: </span>
+          Chief AI Officer of WeBank, Department Head of Computer Science and Engineering at the Hong Kong University of
+          Science and Technology, New Bright Professorship in Engineering. AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR
+          Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice Chair of ACM SIGART (SIGAI)
+          (2009-2012), PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).<br />
+          Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
+            >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
+          ><br /><br />
           <span>Liyuan Chen: </span>
           Chief Operating Officer of E Fund Management, Chairman of the E Fund FinTech Executive Committee.<br /><br />
           <span>Shuoling Liu: </span>

@@ -17,7 +17,7 @@
     </div>
     <div class="subtitle padding w">
       <div class="sub-text">
-        国际金融服务大型语言模型研讨会<br />
+        金融领域大语言模型研讨会<br />
         (FinLLM 2024)
       </div>
     </div>
@@ -168,6 +168,18 @@
             <div class="info-box">
               <div class="avt">
                 <img
+                  src="@/assets/img/7.png"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">杨强</p>
+                <p class="note">微众银行/香港科技大学</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="avt">
+                <img
                   src="@/assets/img/9.png"
                   alt=""
                 />
@@ -228,6 +240,15 @@
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
+          <span>杨强: </span>
+          微众银行首席人工智能官，香港科技大学计算机科学与工程系系主任，新明工程学讲座教授。AAAI Fellow, IEEE Fellow,
+          AAAS Fellow, IAPR Fellow和ACM杰出科学家。IJCAI主席（2017-2019），ACM
+          SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
+          Google Scholar: <br />
+          <a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
+            >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
+          >
+          <br /><br />
           <span>陈丽园: </span>
           易方达基金首席营运官，易方达基金金融科技执行委员会主席。
           <br /><br />

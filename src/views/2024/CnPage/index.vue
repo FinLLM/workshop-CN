@@ -27,7 +27,7 @@
           <div class="center-text-content">
             <div class="center-text-top">
               <span class="center-text-title">研讨会日期: <br /></span>
-              <span class="center-text-body">2024年8月24日 <br /></span>
+              <span class="center-text-body">2024年9月 <br /></span>
             </div>
             <span class="center-text-title">会议地点: <br /></span>
             <span class="center-text-body">珠海横琴希尔顿逸林酒店</span>
@@ -127,7 +127,7 @@
         <div class="card">
           <p class="title">研讨会日期:</p>
           <p class="timer">
-            <span class="month">2024年8月24日</span>
+            <span class="month">2024年9月</span>
           </p>
         </div>
       </div>
@@ -240,10 +240,10 @@
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
-          <span>杨强: </span>
-          微众银行首席人工智能官，香港科技大学计算机科学与工程系系主任，新明工程学讲座教授。AAAI Fellow, IEEE Fellow,
-          AAAS Fellow, IAPR Fellow和ACM杰出科学家。IJCAI主席（2017-2019），ACM
-          SIGART（SIGAI）副主席（2009-2012），PC主席及联合主席：IJCAI（2015），ACM KDD（2010）。<br />
+          <span>杨 强: </span>
+          加拿大工程院（CAE）和加拿大皇家学会（RSC）院士，微众银行的首席人工智能官，香港科技大学计算机科学与工程系的名誉教授和前系主任。AAAI、ACM、IEEE
+          Fellow。《ACM智能系统与技术交易》（ACM TIST）、《IEEE大数据交易》（IEEE
+          TBD）等期刊创刊主编，曾任IJCAI主席（2017-2019）。<br />
           Google Scholar: <br />
           <a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a

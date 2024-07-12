@@ -27,7 +27,7 @@
           <div class="center-text-content">
             <div class="center-text-top">
               <span class="center-text-title">Symposium Date: <br /></span>
-              <span class="center-text-body">August 24, 2024 <br /></span>
+              <span class="center-text-body">September, 2024 <br /></span>
             </div>
             <span class="center-text-title">Venue: <br /></span>
             <span class="center-text-body">Doubletree By Hilton Zhuhai Hengqin</span>
@@ -130,7 +130,7 @@
         <div class="card">
           <p class="title">Symposium Date:</p>
           <p class="timer">
-            <span class="month">August 24, 2024</span>
+            <span class="month">September, 2024</span>
           </p>
         </div>
       </div>
@@ -249,10 +249,11 @@
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
           <span>Qiang Yang: </span>
-          Chief AI Officer of WeBank, Department Head of Computer Science and Engineering at the Hong Kong University of
-          Science and Technology, New Bright Professorship in Engineering. AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR
-          Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice Chair of ACM SIGART (SIGAI)
-          (2009-2012), PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).<br />
+          Fellow of Canadian Academy of Engineering (CAE) and Royal Society of Canada (RSC), Chief Artificial
+          Intelligence Officer of WeBank, Professor emeritus and former Chair Professor of Computer Science and
+          Engineering Department at Hong Kong University of Science and Technology (HKUST). Fellow of AAAI, ACM, IEEE,
+          etc. Founding Editor in Chief of the ACM Transactions on Intelligent Systems and Technology (ACM TIST) and the
+          Founding Editor in Chief of IEEE Transactions on Big Data (IEEE TBD). President of IJCAI from 2017 to 2019.<br />
           Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           ><br /><br />

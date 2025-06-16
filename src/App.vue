@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <router-view />
-    <div class="footer padding">
+    <div
+      v-if="$route.path !== '/2025-CN'"
+      class="footer padding"
+    >
       <div>
         <div class="email-info">
           <p>粤ICP备 2024250148</p>

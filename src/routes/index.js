@@ -3,11 +3,17 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import CnPage from '@/views/2023/CnPage/index.vue'
 import Cn2024 from '@/views/2024/CnPage/index.vue'
+import Cn2025 from '@/views/2025/CnPage/index.vue'
 
 const routes = [
   {
     path: '/',
-    redirect: '/2024-CN',
+    redirect: '/2025-CN',
+  },
+  {
+    path: '/2025-CN',
+    name: 'CnPage2025',
+    component: Cn2025,
   },
   {
     path: '/2024-CN',
@@ -24,7 +30,6 @@ const routes = [
     name: 'Paper2023EN',
     component: () => import('@/views/2024/EnPage/paper-2023.vue'),
   },
-
   {
     path: '/2024-EN',
     name: 'CnPage',
